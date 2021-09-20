@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "SOME KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG") == "true"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dj2-task-manager.herokuapp.com']
 
 
 # Application definition
