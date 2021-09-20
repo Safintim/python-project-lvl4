@@ -5,7 +5,7 @@ description = ""
 authors = ["Safintim <timurtlt96@mail.ru>"]
 
 [tool.poetry.dependencies]
-python = "3.8.1"
+python = "^3.9.6"
 Django = "^3.2.7"
 python-dotenv = "^0.19.0"
 
